@@ -1,0 +1,104 @@
+{
+  "rateRequest": {
+    "from": {
+      "companyName": "abc",
+      "streetAddress": "32lewishoneydrive",
+      "streetAddress2": "strata",
+      "city": "Aurora",
+      "countryCode": "CA",
+      "state": "ON",
+      "postalCode": "L4G0J4",
+      "attention": "kna",
+      "email": "nagvemuapalli@gmail.com",
+      "phone": "778 302 7883",
+      "instructions": "carry",
+      "residential": true,
+      "notify": true
+    },
+    "to": {
+      "companyName": "def",
+      "streetAddress": "1589 E59th Ave",
+      "streetAddress2": "St",
+      "city": "Vancouver",
+      "countryCode": "CA",
+      "state": "BC",
+      "postalCode": "V5P2G8",
+      "attention": "kgn",
+      "email": "rao@gmail.com",
+      "phone": "228 968 6869",
+      "instructions": "left",
+      "residential": true,
+      "notify": true
+    },
+    "packageType": "PACKAGE",
+    "lineItems": [
+      {
+        "length": 16.32,
+        "width": 18.45,
+        "height": 19.26,
+        "weight": 30.732,
+        "declaredValue": {
+          "currency": "CAD",
+          "amount": 9006
+        },
+        "description": "Ran",
+        "nmfcCode": "string",
+        "freightClass": "string"
+      }
+    ],
+    "unitOfMeasurement": "IMPERIAL",
+    "serviceOptions": [
+      "APPOINTMENT"
+    ],
+    "shipDate": "2023-11-20T04:20:40.432Z",
+    "insuranceType": "SHIPTIME",
+    "customsInvoice": {
+      "invoiceContact": {
+        "companyName": "str",
+        "streetAddress": "123 mableave",
+        "streetAddress2": "ran",
+        "city": "Toronto",
+        "countryCode": "CA",
+        "state": "ON",
+        "postalCode": "L4G0J4",
+        "attention": "rma",
+        "email": "kan@gmail.com",
+        "phone": "228 986 7409",
+        "instructions": "set",
+        "residential": true,
+        "notify": true,
+        "customsBroker": "ban",
+        "shipperTaxId": "can12"
+      },
+      "dutiesAndTaxes": {
+        "dutiable": true,
+        "paidBy": "CONSIGNEE"
+      },
+      "currency": "CAD",
+      "invoiceItems": [
+        {
+          "quantity": 1,
+          "code": "123456",
+          "description": "left",
+          "origin": "Toronto",
+          "provinceOrState": "Ontario",
+          "unitPrice": 1,
+          "weight": 30.62
+        }
+      ],
+      "reasonForExport": "COMMERCIAL"
+    }
+  },
+  "carrierId": "14",
+  "serviceId": "1",
+  "quoteId": "fon",
+  "pickupDetail": {
+    "location": "FrontDoor",
+    "otherLocation": "lan",
+    "pickupDate": "2023-11-09",
+    "readyTime": "12:15",
+    "closeTime": "18:00"
+  },
+  "ref1": "string",
+  "ref2": "string"
+}

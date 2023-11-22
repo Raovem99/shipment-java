@@ -1,0 +1,51 @@
+{
+  "baseCharge": {
+    "currency": "CAD",
+    "amount": 3452
+  },
+  "surcharges": [
+    {
+      "price": {
+        "currency": "CAD",
+        "amount": 219
+      },
+      "code": "RESIDENTIAL",
+      "name": "RESIDENTIAL"
+    },
+    {
+      "price": {
+        "currency": "CAD",
+        "amount": 250
+      },
+      "code": "INSURANCE",
+      "name": "Insurance"
+    }
+  ],
+  "taxes": [
+    {
+      "price": {
+        "currency": "CAD",
+        "amount": 196
+      },
+      "code": "TAX",
+      "name": "GST"
+    }
+  ],
+  "totalCharge": {
+    "currency": "CAD",
+    "amount": 4117
+  },
+  "totalBeforeTaxes": {
+    "currency": "CAD",
+    "amount": 3921
+  },
+  "exchangeRate": 0,
+  "carrierId": "14",
+  "carrierName": "Canpar",
+  "serviceId": "1",
+  "serviceName": "Ground",
+  "transitDays": 4,
+  "cutoffTime": "14:30",
+  "accessTimeInterval": "2:00",
+  "quoteId": "6801cec5a506849feb24c9c4f5878985"
+}

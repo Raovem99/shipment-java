@@ -1,0 +1,12 @@
+{
+  "shipId": 4826047,
+  "trackingNumbers": [
+    "D420917200000003587001"
+  ],
+  "labelUrl": "http://restapi.appspaces.ca/rest/shipments//4826047/label",
+  "carrierTrackingUrl": "https://www.canpar.com/en/track/TrackingAction.do?locale=en&type=0&shipper_num=42091720&reference=D420917200000003587001",
+  "pickupConfirmation": "6095259",
+  "messages": [
+    "'SHIPTIME' Insurance not applicable, insurance set to 'CARRIER'"
+  ]
+}
