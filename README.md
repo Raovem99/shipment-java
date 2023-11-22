@@ -128,8 +128,7 @@ maxLength: 15
 
 4. **Package Type:**
    - **Type:** string
-   - **Description:** 	string
-Enum:
+   - **Description:** Enum:
 [ PACKAGE, LETTER, PAK, MY_ENVELOPE, PALLET ]
 
 5.** unitOfMeasurement*	string
@@ -145,9 +144,7 @@ Shipment date (Format: yyyy-MM-dd)
    - **Description:** Date when the package will be shipped.
 
 ## Output:
-
 The endpoint outputs shipping rates based on the provided input. The response includes information such as:
-
 - Dynamic pricing.
 - Available couriers.
 - Service details.
@@ -162,8 +159,6 @@ curl --location 'https://restapi.appspaces.ca/rest/rates/' \
 --header 'Content-Type: application/json' \
 --header 'Authorization: Basic bmFndmVtdWFwYWxsaUBnbWFpbC5jb206UGFzc3dvcmQxMjM=' \
 --data-raw '{ "from": { "companyName": "Abcd", "streetAddress": "123Enclave", "streetAddress2": "string", "city": "Aurora", "countryCode": "CA", "state": "ON", "postalCode": "L4G0J4", "attention": "Anna", "email": "Anna@gmail.com", "phone": "778 302 7883", "instructions": "Crosscheck", "residential": true, "notify": true }, "to": { "companyName": "Ritz", "streetAddress": "1589Blvd", "streetAddress2": "string", "city": "Vancouver", "countryCode": "CA", "state": "BC", "postalCode": "V5P2G8", "attention": "Van", "email": "Vana@gmail.com", "phone": "236 889 2626", "instructions": "Rome", "residential": true, "notify": true }, "packageType": "PACKAGE", "lineItems": [ { "length": 12.34, "width": 18.26, "height": 19.32, "weight": 20.424, "declaredValue": { "currency": "CAD", "amount": 12568 }, "description": "Box", "nmfcCode": "12345", "freightClass": "string" } ], "unitOfMeasurement": "IMPERIAL", "serviceOptions": [ "APPOINTMENT" ], "shipDate": "2023-11-17T04:06:27.946Z", "insuranceType": "SHIPTIME", "customsInvoice": { "invoiceContact": { "companyName": "Abcd", "streetAddress": "321 Mable Ave", "streetAddress2": "string", "city": "Aurora", "countryCode": "CA", "state": "ON", "postalCode": "L4G0J4", "attention": "Main", "email": "Main@gmail.com", "phone": "672 123 4567", "instructions": "Road", "residential": true, "notify": true, "customsBroker": "Brok123", "shipperTaxId": "12345678" }, "dutiesAndTaxes": { "dutiable": true, "paidBy": "CONSIGNEE" }, "currency": "CAD", "invoiceItems": [ { "quantity": 2, "code": "123456", "description": "Box", "origin": "CA", "provinceOrState": "ON", "unitPrice": 1062, "weight": 20.424 } ], "reasonForExport": "COMMERCIAL" }}'
-
-
 
 ### Response:
 
@@ -352,5 +347,5 @@ curl --location 'https://restapi.appspaces.ca/rest/rates/' \
 }
 
 ## Conclusion: 
-
 The Rates endpoint plays a pivotal role in providing users with accurate and real-time shipping rates based on their input. This documentation serves as a guide for developers to understand the expected input parameters, endpoint details, and the structure of the output response.
+
